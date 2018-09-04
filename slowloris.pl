@@ -8,7 +8,7 @@ use Config;
 $SIG{'PIPE'} = 'IGNORE';    #Ignore broken pipe errors
 
 print <<EOTEXT;
-Welcome Mr.Imran Ahmed - the low bandwidth, yet greedy and poisonous HTTP client
+The low bandwidth, yet greedy and poisonous HTTP client
 EOTEXT
 
 my ( $host, $port, $sendhost, $shost, $test, $version, $timeout, $connections );
